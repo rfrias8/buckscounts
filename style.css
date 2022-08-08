@@ -13,7 +13,7 @@ e/*
 }
 
 /* your code */
-body {
+body, .city-list{
   background-color: #1e3932;
 }
 
