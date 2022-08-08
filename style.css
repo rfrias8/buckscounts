@@ -1,4 +1,4 @@
-/* 
+e/* 
   colors
     white #f2f0eb;
     black #27251F
@@ -13,3 +13,46 @@
 }
 
 /* your code */
+body {
+  background-color: #1e3932;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav > h1{
+  color: white;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+
+label {
+  background-color: #d4e9e2;
+  padding: 10px;
+  width: 55%;
+  margin-bottom: 50px;
+}
+
+.city-list{
+  border: solid #d4e9e2; 
+  margin: auto;
+  padding: 8px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.city-list .city-item{
+  background-color: #00754a;
+  padding: 2px;
+  margin: 10px;
+}
